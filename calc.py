@@ -4,20 +4,20 @@ from tkinter import *
 
 #Operações
 def somar():
-    resultado = int(numero1.get())+ int(numero2.get())
+    resultado = float(numero1.get())+ float(numero2.get())
     
     LabelMostraResultado["text"] = resultado
 
 def subtrair():
-    resultado = int(numero1.get()) - int(numero2.get())
+    resultado = float(numero1.get()) - float(numero2.get())
     LabelMostraResultado["text"] = resultado
 
 def mult():
-    resultado = int(numero1.get()) * int(numero2.get())
+    resultado = float(numero1.get()) * float(numero2.get())
     LabelMostraResultado["text"] = resultado
     
 def dividir():
-    resultado = int(numero1.get()) / int(numero2.get())
+    resultado = float(numero1.get()) / float(numero2.get())
     LabelMostraResultado["text"] = resultado
 
 
@@ -37,7 +37,7 @@ numero1.place(x=80,y=10,width=100,height=20)
 
 #label número 2
 
-Label(app, text="Número 2", background="#dde", foreground="white").place(x=10,y=40,width=65,height=20)
+Label(app, text="Número 2", background="#dde", foreground="#009").place(x=10,y=40,width=65,height=20)
 
 #Entrada de texto atribuida a variavel numero2
 
