@@ -1,6 +1,8 @@
 from tkinter import *
 
 
+#TODO  pra ficar melhor poderia fazer uma variável global ou um método estático que guardaria a operação matemática
+#TODO  daí esse "LabelMostraResultado["text"] = resultado" vira um botão, fazendo com que fique mais parecido com uma calculadora de verdade
 
 #Operações
 def somar():
